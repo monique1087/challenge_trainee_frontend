@@ -1,4 +1,4 @@
-# ChallangeeTrainee
+# Challenge Trainee
 
 Você foi convocado para criar um álbum de mensagens para um casamento!
 Precisamos de uma página onde os visitantes poderão deixar seu nome e uma mensagem e que, quando um convidado registrar essa mensagem, a mensagem ficará disponibilizada na página.
