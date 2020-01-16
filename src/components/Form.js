@@ -1,14 +1,19 @@
 import React from 'react';
 import './Mae'
 
-class Form extends React.Component {
+export default class Form extends React.Component {
     constructor(props) {
       super(props);
       this.state = {nome: ''};
-      this.state = {mensagem:''};
-  
+      
       this.handleChange = this.handleChange.bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
+
+      this.state = {mensagem:''};
+
+      this.handleChange = this.handleChange.bind(this);
+      this.handleSubmit = this.handleSubmit.bind(this);
+
     }
   
     handleChange(event) {
@@ -36,5 +41,4 @@ class Form extends React.Component {
     }
   }
 
-export default Form;
 
