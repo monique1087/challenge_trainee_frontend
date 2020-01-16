@@ -1,4 +1,5 @@
 import React from 'react';
+import './Mae'
 
 class Form extends React.Component {
     constructor(props) {
@@ -16,9 +17,8 @@ class Form extends React.Component {
     }
   
     handleSubmit(event) {
-      alert('Uma mensagem foi enviada: ' + this.nome + '' + this.mensagem);
       event.preventDefault();
-      console.log(alert)  
+      console.log(event)  
     }
   
     render() {

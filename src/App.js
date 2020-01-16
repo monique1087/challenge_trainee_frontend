@@ -2,13 +2,15 @@ import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import Form from './components/Form';
-import Table from './components/Mae';
+import Mae from './components/Mae';
+import Lista from './components/Lista'
 
 function App() {
   return (
     <div className="App">
       <Form/>
-      <Table/>
+      <Mae/>
+      <Lista/>
     </div>
   );
 }
