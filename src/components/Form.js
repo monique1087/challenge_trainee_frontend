@@ -5,16 +5,15 @@ import './style.css'
 export default class Form extends React.Component {
     constructor(props) {
       super(props);
-      this.state = {Nome: ''};
-      this.state = {Mensagem:''};
-      
-
-
+      this.state = {nome: []};
+      this.state = {mensagem: []};
+      document.write()
     }
   
   
     handleSubmit(event) {
       event.preventDefault();  
+      console.log(event)
       
     }
   
@@ -27,7 +26,7 @@ export default class Form extends React.Component {
             <p className="nome">Nome:</p>
             <input className="nome" type="text" value={this.props.nome} onChange={this.props.handleChange} onSubmit={this.props.handleSubmit}/>
             <p className="mensagem">Mensagem:</p>
-            <input className="mensagem" type='text' value={this.props.mensagem} onChange={this.props.handleChange} onSubmit={this.props.handleSubmit}/>
+            <input className="mensagem" type='text' value={this.props.mensagem} onChange={this.props.handleChange} onSubmit/>
           <input className="button" type="submit" value="Enviar" />
           </label>
           
