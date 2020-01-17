@@ -1,25 +1,15 @@
 import React from 'react';
-import './Mae'
+//import './Mae'
 
 export default class Form extends React.Component {
     constructor(props) {
       super(props);
-      this.state = {nome: ''};
-      
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
+      this.state = {Nome: ''};
+      this.state = {Mensagem:''};
 
-      this.state = {mensagem:''};
-
-      this.handleChange = this.handleChange.bind(this);
-      this.handleSubmit = this.handleSubmit.bind(this);
 
     }
   
-    handleChange(event) {
-      this.setState({nome: event.target.nome});
-      this.setState({mensagem: event.target.mensagem})
-    }
   
     handleSubmit(event) {
       event.preventDefault();
