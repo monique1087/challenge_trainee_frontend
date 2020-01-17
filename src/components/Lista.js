@@ -12,9 +12,8 @@ export default class Lista extends React.Component {
         return (
             <div>
 
-                <th>Nome</th>
-                <th>Mensagem</th>
-            
+                <th className="list">Nome</th>
+                <th className="list">Mensagem</th>
             </div>
         )
 

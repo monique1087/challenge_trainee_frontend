@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(134, 31, 48);
+    padding-left: 88px;
+    font-family: 'Ribeye Marrow'
+}
+
+h1 {
+    color: white;
+    padding:6px;
+}
+
+.nome {
+    font-style: italic;
+    color: white;
+    font-size: larger;
+    align-items: center;
+}
+
+.mensagem {
+    font-style: italic;
+    color: white;
+    font-size: larger;
+    align-items: center;
+}
+
+.button {
+    size: 50px;
+    font-style: italic;
+    color:white;
+    font-size: larger;
+    padding-right: 80px;
+}
+
+
+
+.list  {
+    font-style: italic;
+    color: white;
+    font-size: larger;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}

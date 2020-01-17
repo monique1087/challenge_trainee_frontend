@@ -11,11 +11,11 @@ export default class App extends React.Component {
       this.state = {Nome:'', Monique:''}
   }
 
-  render(){
+  render(props){
       return (
           <div>
               <Form />
-              <Lista handleSubmit={this.props.array}/>
+              <Lista />
           </div>
       )   
   }
